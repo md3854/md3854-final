@@ -19,7 +19,7 @@ def welcome():
 
 @app.route("/projects")
 def projects():
-    return render_template("1006.html")
+    return render_template("projects.html")
 
 @app.route("/assignments")
 def assignments():
